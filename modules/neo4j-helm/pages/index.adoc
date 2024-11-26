@@ -7,6 +7,16 @@
 :neo4j-versions: 4+
 :page-product: Neo4j Helm
 
+* THIS DOC REFERENCES the charts deprecated in 2022.  
+* Please use the official releases, docs and source below.
+[cols="1,4"]
+|===
+| icon:gift[] Releases | https://neo4j.com/deployment-center/#tools-tab
+| icon:github[] Source | https://github.com/neo4j/helm-charts
+| icon:book[] Docs | https://www.neo4j.com/docs/operations-manual/current/kubernetes/
+|===
+
+
 Neo4j-helm allows users to deploy multi-node Neo4j Enterprise Causal Clusters to Kubernetes instances, with configuration options for the most common scenarios. It represents a very rapid way to get started running the world leading native graph database on top of Kubernetes.
 
 == Functionality Includes
@@ -15,7 +25,7 @@ Neo4j-helm allows users to deploy multi-node Neo4j Enterprise Causal Clusters to
 * Neo4j Enterprise Stand-Alone configurations
 * Memory Tuning & Custom Configuration
 
-== Relevant Links
+== Deprecated Links
 
 [cols="1,4"]
 |===
@@ -25,7 +35,7 @@ Neo4j-helm allows users to deploy multi-node Neo4j Enterprise Causal Clusters to
 | icon:book[] Docs | https://neo4j.com/labs/neo4j-helm/1.0.0
 |===
 
-== Recent Articles
+== Historical Reference Recent Articles - out of date
 
 * https://medium.com/neo4j/neo4j-considerations-in-orchestration-environments-584db747dca5[Neo4j Considerations in Orchestration Environments]
 * https://medium.com/neo4j/how-to-backup-neo4j-running-in-kubernetes-3697761f229a[How to Backup Neo4j Running in Kubernetes]
